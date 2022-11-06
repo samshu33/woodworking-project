@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    height:900px;
+    width:1515px ;
+    border: black 5px solid;
+    background-image: url(/image/rao.jpg);
+}
+
+header{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 2px;
+    float: left;
+}
+section{
+    height: 200px;
+    width: 1215px;
+    
+
+}
+ul li{
+    float: left;
+    list-style: none;
+    margin: 15px;
+    display: block;
+    height: 30px;
+    width: 120px;
+    background-color: red;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 40px;
+    margin-top: 45px;
+    position: relative;
+    left: 550px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li :hover{
+    color: white;
+}
+
+aside{
+    height: 200px;
+    font-size: 50px;
+    color: red;
+    float: left;
+    position: relative;
+    top: 10px;
+    text-decoration: solid underline white 2px;
+    text-align: center;
+    
+}
+aside :hover{
+    color:greenyellow;
+}
+
+article{
+    height: 300px;
+    width: 1515px;
+    float: left;
+}
+.product{
+    height: 420px;
+    width: 360px;
+    background-color:white;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    border: 4px solid black;
+    font-size: 25px;
+    
+}
+.product a{
+    text-decoration: none;
+}
+h2:hover{
+    color: red;
+}
+h1:hover{
+    color: brown;
+}
+
+
+.single-service h1{
+    color: red;
+    text-align: center;
+}
+    

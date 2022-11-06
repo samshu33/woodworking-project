@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.main{
+   height: 100%;
+   width: 100%;
+   background-image: url(/sams/image/R\ \(1\).jpeg); 
+   background-position: center;
+   background-size: cover;
+   position: absolute;
+   border: 2px solid brown;
+}
+.box{
+    height: 480px;
+    width: 380px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+    border: 3px solid brown;
+}
+.button{
+    width: 30px;
+    margin: 55px auto;
+    position: relative;
+   
+    
+
+}
+.but1{
+    padding: 10px 30px;
+
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    
+    top: 0px;
+    left: -20px;
+    right: 50px;
+    position: absolute;
+    height: 100%;
+    width: 110px;
+    background: linear-gradient(to right,red,yellow);
+    border-radius: 30px;
+    transition: 0.5s;
+    text-align: center;
+    font-size: large;
+
+} 
+.social{
+    margin: 30px auto;
+    text-align: center;
+    height: 30px auto;
+    width: 30px auto;
+}
+ .social img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow:0 0 0 20px 0 rgb(33, 59, 76);
+    cursor: pointer;
+    border-radius: 50%;
+ }
+ .intag{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition:0.5s;
+}
+.input-field{
+   width: 100%; 
+   padding: 10px 0;
+   margin: 5px 0;
+   border-left: 0;
+   border-right: 0;
+   border-top:0 ;
+   border-bottom: 1px solid rgb(221, 216, 216);
+   outline: none;
+   background: transparent;
+
+}
+.sub-bt{
+width: 85%;
+padding: 10px 30px;
+cursor: pointer;
+display: block;
+margin-left: 70px;
+background:linear-gradient(to right,red,yellow) ;
+border: 0;
+outline: none;
+border-radius: 30px;
+
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: rgb(126, 125, 125);
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+
+
+}
+
